@@ -1,4 +1,4 @@
-function ReverseString(str) {
+function reverseString(str) {
   // Check if the input is a string
   if (typeof str !== 'string') {
     throw new Error('Input must be a string');
@@ -16,4 +16,8 @@ function ReverseString(str) {
     return reversedString;
 }
 
-console.log(ReverseString("hello")); // Output: "olleh"
+console.log(reverseString("hello")); // Output: "olleh"
+console.log(reverseString("JavaScript"));
+console.log(reverseString("12345"));
+console.log(reverseString("a"));
+console.log(reverseString(""));
