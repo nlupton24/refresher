@@ -1,6 +1,6 @@
 //Find the largest number in array
 
-function findLargestNumberInArray(params) {
+function findLargestNumberInArray(array) {
 
     let maximum = array[0];
     
@@ -13,4 +13,11 @@ function findLargestNumberInArray(params) {
     }
 
     return maximum;    
-}   
+}  
+
+console.log("Find the largest number in array");
+
+console.log(findLargestNumberInArray([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+console.log(findLargestNumberInArray([-1, -2, -3, -4, -5, -6, -7, -8, -9]));
+console.log(findLargestNumberInArray([1, 2, 3, 4, 5, 6, 7, 8, 9, -1, -2, -3, -4, -5, -6, -7, -8, -9])); 
+console.log(findLargestNumberInArray([-1, -2, -3, -4, -5, -6, -7, -8, -9, 1, 2, 3, 4, 5, 6, 7, 8, 9])); 
